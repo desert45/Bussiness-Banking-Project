@@ -1,6 +1,4 @@
-package com.bootcamp.banking.Account.Controller;
-
-import java.util.Optional;
+package com.bootcamp.account.api;
 
 import javax.validation.Valid;
 
@@ -17,8 +15,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bootcamp.banking.Account.Model.document.Account;
-import com.bootcamp.banking.Account.Model.service.AccountService;
+import com.bootcamp.account.Model.document.Account;
+import com.bootcamp.account.Model.service.AccountService;
+
 import io.swagger.v3.oas.annotations.Operation;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

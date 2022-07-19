@@ -1,8 +1,9 @@
-package com.bootcamp.banking.Account.Model.repository;
+package com.bootcamp.account.Model.repository;
 
-import com.bootcamp.banking.Account.Model.document.Account;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import org.springframework.stereotype.Repository;
+
+import com.bootcamp.account.Model.document.Account;
 
 @Repository
 public interface AccountRepository extends ReactiveMongoRepository<Account, String> {

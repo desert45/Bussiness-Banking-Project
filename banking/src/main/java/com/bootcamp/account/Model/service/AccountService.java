@@ -1,6 +1,7 @@
-package com.bootcamp.banking.Account.Model.service;
+package com.bootcamp.account.Model.service;
 
-import com.bootcamp.banking.Account.Model.document.Account;
+import com.bootcamp.account.Model.document.Account;
+
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 

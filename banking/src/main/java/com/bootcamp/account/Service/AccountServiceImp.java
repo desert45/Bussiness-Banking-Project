@@ -1,12 +1,12 @@
-package com.bootcamp.banking.Account.Service;
+package com.bootcamp.account.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
 
-import com.bootcamp.banking.Account.Model.document.Account;
-import com.bootcamp.banking.Account.Model.repository.AccountRepository;
-import com.bootcamp.banking.Account.Model.service.AccountService;
+import com.bootcamp.account.Model.document.Account;
+import com.bootcamp.account.Model.repository.AccountRepository;
+import com.bootcamp.account.Model.service.AccountService;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -40,7 +40,8 @@ public class AccountServiceImp implements AccountService {
 
 	@Override
 	public Mono<Void> deleteById(String id) throws Exception {
-		return this.accountRepository.deleteById(id);
+		return this.accountRepository.findById(id)
+                .flatMap(existingCustomer-> accountRepository.delete(existingCustomer));
 	}
 
 

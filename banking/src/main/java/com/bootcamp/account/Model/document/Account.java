@@ -1,4 +1,4 @@
-package com.bootcamp.banking.Account.Model.document;
+package com.bootcamp.account.Model.document;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,12 +11,12 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "accounts")  // DB: Plural
-public class Account {  // UpperCammel Case - Singular
+@Document(collection = "accounts")  
+public class Account {  
 
   @Id
   private String id;
-  private String numberAccount; //  lowerCammel Case
+  private String numberAccount; 
   private String type;
   private String documentNumber;
 }
