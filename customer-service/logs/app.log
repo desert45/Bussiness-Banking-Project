@@ -10,3 +10,6 @@
 2022-07-19 10:38:45,731 DEBUG com.bootcamp.customer.CustomerServiceApplication [main] Running with Spring Boot v2.6.9, Spring v5.3.21
 2022-07-19 10:38:45,732 INFO com.bootcamp.customer.CustomerServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
 2022-07-19 10:38:48,497 INFO com.bootcamp.customer.CustomerServiceApplication [main] Started CustomerServiceApplication in 3.174 seconds (JVM running for 3.779)
+2022-07-20 14:52:11,829 INFO com.bootcamp.customer.CustomerServiceApplication [main] Starting CustomerServiceApplication using Java 1.8.0_333 on LIM-8TGK2J3 with PID 16780 (C:\Java Microservicios\Repo 1\Bussiness-Banking-Project\customer-service\target\classes started by chuamaca in C:\Java Microservicios\Repo 1\Bussiness-Banking-Project\customer-service)
+2022-07-20 14:52:11,833 DEBUG com.bootcamp.customer.CustomerServiceApplication [main] Running with Spring Boot v2.6.9, Spring v5.3.21
+2022-07-20 14:52:11,833 INFO com.bootcamp.customer.CustomerServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
